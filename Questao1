@@ -1,0 +1,12 @@
+
+public class Questao1{
+
+
+/*
+QUESTÃO 1 
+RESPOSTA: Em JAVA , o bytecode é interpretado por um JVM ( java manipulator machine).
+A portabilidade é obtida a medida que JMV's estão dispóniveis para diferentes plataformas.
+Assim, o codigo JAVA pode ser executado indiferente do sistema operacional ou do processador.
+*/
+
+}
