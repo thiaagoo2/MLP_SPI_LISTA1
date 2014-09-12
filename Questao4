@@ -1,0 +1,11 @@
+public class Questao4{
+
+/*
+QUESTÃO 4
+RESPOSTA: Polimorfismo é poder referenciar um objeto de várias maneiras.
+Ex.:objetoFerrari.aumento() é diferente de objetoFusca.aumento().
+
+
+*/
+
+}
