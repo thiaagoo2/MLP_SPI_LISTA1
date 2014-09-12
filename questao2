@@ -1,0 +1,19 @@
+public class Questao2{
+
+/*
+QUESTÃO 2
+RESPOSTA: 
+- UM ESTADO(ATRIBUTO): Define os estados possíveis que um objeto pode assumir. São os valores das 
+propriedades(atributos)  Ex.: Lâmpada acesa, Lâmpada apagada.
+
+- UM COMPORTAMENTO(MÉTODO): é a função associada a um objeto e possui acesso a seus dados. É tudo
+aquilo que voce pode fazer com o objeto. Ex.: Acender lâmpada, Apagar lâmpada.
+
+- INTERFACE(ASSINATURA): 
+
+- UMA IDENTIDADE: Cada objeto é unico, mesmo que sejam semelhantes. Ex.: Uma lâmpada nunca será totalmente 
+igual a outra, pois haverá pelo menos 1 coisa que lhe tornará unica, como o código de fabricação.
+
+*/
+
+}
