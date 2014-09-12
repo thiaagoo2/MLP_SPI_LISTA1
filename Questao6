@@ -1,0 +1,73 @@
+public class Fatura {
+	private String numero;
+	private String descricao;
+	private int qtde;
+	private double preço;
+
+	public String getNumero() {
+		return numero;
+	}
+
+	public void setNumero(String numero) {
+		this.numero = numero;
+	}
+
+	public String getDescricao() {
+		return descricao;
+	}
+
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
+	}
+
+	public int getQtde() {
+		return qtde;
+	}
+
+	public void setQtde(int qtde) {
+		this.qtde = qtde;
+	}
+
+	public double getPreço() {
+		return preço;
+	}
+
+	public void setPreço(double preço) {
+		this.preço = preço;
+	}
+
+	public double getValorFatura(double valor) {
+		return valor = preço * qtde;
+
+	}
+}
+
+
+public class Programa {
+	private static final double valor = 0;
+
+	public static void main(String[] args) {
+
+		Fatura f1 = new Fatura();
+		f1.setNumero("123a4");
+		f1.setQtde(3);
+		f1.setDescricao("lampadas industriais");
+		f1.setPreço(-80);
+		
+	
+		if(f1.getValorFatura(valor) < 0){
+			System.out.println("0");
+			return;
+		}
+		if(f1.getPreço() < 0){
+			System.out.println("0.0");
+			return;
+		}
+		System.out.println("Quantidade: " + f1.getQtde());
+		System.out.println("Valor Unitário: R$ " + f1.getPreço());
+		System.out.println("Valor total da fatura: R$ "
+				+ f1.getValorFatura(valor));
+
+	}
+
+}
